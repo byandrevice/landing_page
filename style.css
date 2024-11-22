@@ -1,0 +1,96 @@
+/* TODO: Add Roboto font */
+body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.first-quarter {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1F2937;
+    width: 100%;
+}
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: row;   
+    gap: 8px; 
+    color: white;
+    opacity: .8;
+}
+
+.introduction {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: #fff;
+}
+
+.left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.right {
+    flex: 1;
+    background-color: #D1D5DB;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.button {
+    font-size: 18px;
+    background-color: #3882F6;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.awesome {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.awesome-sub {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.second-quarter {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.second-head {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+
+
+
+
